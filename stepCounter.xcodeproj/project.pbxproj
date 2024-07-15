@@ -11,6 +11,7 @@
 		5870A31B2C45B0940000611D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870A31A2C45B0940000611D /* ContentView.swift */; };
 		5870A31D2C45B0950000611D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870A31C2C45B0950000611D /* Assets.xcassets */; };
 		5870A3202C45B0950000611D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870A31F2C45B0950000611D /* Preview Assets.xcassets */; };
+		5870A3272C45BA840000611D /* RequestSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870A3262C45BA840000611D /* RequestSteps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		5870A31A2C45B0940000611D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5870A31C2C45B0950000611D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5870A31F2C45B0950000611D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5870A3262C45BA840000611D /* RequestSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSteps.swift; sourceTree = "<group>"; };
+		5870A3282C45BC8D0000611D /* stepCounter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = stepCounter.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		5870A3172C45B0940000611D /* stepCounter */ = {
 			isa = PBXGroup;
 			children = (
+				5870A3282C45BC8D0000611D /* stepCounter.entitlements */,
 				5870A3182C45B0940000611D /* stepCounterApp.swift */,
 				5870A31A2C45B0940000611D /* ContentView.swift */,
+				5870A3262C45BA840000611D /* RequestSteps.swift */,
 				5870A31C2C45B0950000611D /* Assets.xcassets */,
 				5870A31E2C45B0950000611D /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5870A3272C45BA840000611D /* RequestSteps.swift in Sources */,
 				5870A31B2C45B0940000611D /* ContentView.swift in Sources */,
 				5870A3192C45B0940000611D /* stepCounterApp.swift in Sources */,
 			);
@@ -269,6 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stepCounter/stepCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stepCounter/Preview Content\"";
@@ -298,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = stepCounter/stepCounter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"stepCounter/Preview Content\"";
