@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		581A53882C484C57009A6654 /* RequestStepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581A53872C484C57009A6654 /* RequestStepsView.swift */; };
 		5870A3192C45B0940000611D /* stepCounterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870A3182C45B0940000611D /* stepCounterApp.swift */; };
 		5870A31B2C45B0940000611D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5870A31A2C45B0940000611D /* ContentView.swift */; };
 		5870A31D2C45B0950000611D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5870A31C2C45B0950000611D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		581A53872C484C57009A6654 /* RequestStepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestStepsView.swift; sourceTree = "<group>"; };
 		5870A3152C45B0940000611D /* stepCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5870A3182C45B0940000611D /* stepCounterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepCounterApp.swift; sourceTree = "<group>"; };
 		5870A31A2C45B0940000611D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				5870A3282C45BC8D0000611D /* stepCounter.entitlements */,
 				5870A3182C45B0940000611D /* stepCounterApp.swift */,
 				5870A31A2C45B0940000611D /* ContentView.swift */,
+				581A53872C484C57009A6654 /* RequestStepsView.swift */,
 				5870A3262C45BA840000611D /* RequestSteps.swift */,
 				5870A31C2C45B0950000611D /* Assets.xcassets */,
 				5870A31E2C45B0950000611D /* Preview Content */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581A53882C484C57009A6654 /* RequestStepsView.swift in Sources */,
 				5870A3272C45BA840000611D /* RequestSteps.swift in Sources */,
 				5870A31B2C45B0940000611D /* ContentView.swift in Sources */,
 				5870A3192C45B0940000611D /* stepCounterApp.swift in Sources */,
@@ -282,6 +286,8 @@
 				DEVELOPMENT_TEAM = 8K6C7ZB947;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to track your steps";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We want to track your steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,6 +318,8 @@
 				DEVELOPMENT_TEAM = 8K6C7ZB947;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We want to track your steps";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We want to track your steps";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

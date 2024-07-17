@@ -1,14 +1,15 @@
 //
-//  ContentView.swift
+//  RequestStepsView.swift
 //  stepCounter
 //
-//  Created by Henrik Jones on 7/15/24.
+//  Created by Henrik Jones on 7/17/24.
 //
 
 import SwiftUI
 import HealthKitUI
 
-struct ContentView: View {
+struct RequestStepsView: View {
+    
     var body: some View {
         Button(action: {
             //
@@ -19,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    RequestStepsView()
 }
